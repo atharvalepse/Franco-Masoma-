@@ -13,7 +13,7 @@ import {
 export const metadata = { title: "Executive Collection | Franco Masoma" };
 
 const HERO_IMG =
-  "https://lh3.googleusercontent.com/aida-public/AB6AXuCLAKrOn7jN9kV1cljtDJrJS9FrkFFLj-QELJAkPGYlffZlHsjH6Xj0WoQ5NclGXAxeiqvpt9rF7SJDsJBjFmk-Shzc7-RFkCOVYVcnKkpXfGNz51vRuELOxDwcriGAzHcqd98mewhLrWTwEuHMtiSFL56qn_lH6LruFzBG2DrfYB5f1F3xoJO6hIsJmCDX1iOI5vF3_difGX1QnHOmLMuXkrrgHavK_4mB3fVnRWObnwQhLDy6-nZY_fssjwH2rpRltGfXSYt2dQc";
+  "/cropped-portrait-successful-businessman-buttoning-his-elegant-suit-isolated-dark-background_613910-5505.jpg.avif";
 
 const garments = [
   {
@@ -29,8 +29,7 @@ const garments = [
       "Designed for all-day presence",
       "CTM and Fully Personalized tiers available",
     ],
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuB7ZvnuBeydDNkdTCoJ_ggUN8QYOAYz73dnmZwUkNpytSlnnrmuU7c4RY8mH5iy7y_EL3eZ3KoGwHQuBcPxdy-V4Nz6wteXXfnPfMIR5PPimooEXeCVr3kqDLn6CRCdpu1CGydr3HCku4DInCWUxK4s1UduV-96DIT1kZpimdzQtIrfF9JMn66MO-Iq0e-81Ob_SVlp9YknXKh8Cr1HxcsLkV3wqwCI39TbMKYTP2e4ymNDjaNPJkTEcY1MBj2WwpnYCzYcJS3uIZ2H",
+    image: "/suits.jpg",
   },
   {
     n: "02",
@@ -45,8 +44,7 @@ const garments = [
       "Available in RTW and CTM formats",
       "Monogramming available on request",
     ],
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuAMn7e5lEDqdNlzqrPnBiNFapimNSbxgrgEJCIYncFrJinJlYJ832ggk4c-taCzqIr155OT7ug5mycCzwy8WuwICxpVc9aQxGUCnPYBQ41YKK8plGXM5mcZdwRUNufuP6xUJMx_suGhG6Q3qEYRzBFdXPvdSsCuDX7BsUBOHqqDI8f46DfjSLlmAwhx1xUOzNPCC6ASDdlGhKgn7oPxu8ZIIwTOqCg9dfZ8yb4sTKTRjTZaASQ7aJziaA033TT3WoyOJwdqpBTirqg",
+    image: "/e6b0fcb2fb4fa90caf0d7ad3b95517f2.jpg",
   },
   {
     n: "03",
@@ -61,8 +59,7 @@ const garments = [
       "Full lining and pocket customization",
       "Lifetime atelier repair service",
     ],
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuCfn3lxud2noBxQHgPNuvqeB5enp1qqf1wE1u9Kqia_8K35mwnGIkr96qc8duLlk_9UJOzaauCiJ-yJNCLCpOI9iLRaYIbvYEGihikwS5u5QgygT6AYVTU-HfRhHfTUPJ0PL5Aykp8aLFQEACu92eauMXR3yOj_J0BiRAcmnWaoPWpfGjjFhkK9bLUFt1_Zu2bTGuAF7SCKoacmxRMIfi50meHCvRBGqKOckBl6T07ZQ7dA4ziHcEY7JUMDz6-9b8OpN2X70qhXWxw",
+    image: HERO_IMG,
   },
 ];
 
