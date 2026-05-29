@@ -31,7 +31,7 @@ const products = [
       "6 to 8 week production timeline",
     ],
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuDnA8SpvjdhL_8bp8ugy1oImQMHHxFDnrqFEJZfmxdGgjFsNWramUhKv4KoAdad0Cc_Gl5WlOGFFs0d4GFkEzVytQKFRoeDctgtKzAm-69AJEyvKnDi2_MfQux2gp9tZhmeojo3T4aAO5iL9IZjH-KOhFZeMSF0cvV-OxaDIdUWhD6UnLGCe7h2_6CUMJtjtqNdhaL0qEWrFx6XtMArc-EU0Aht4-4280awHJl38QJuRkd7v6eYsg0A1M7gKIp8aG7NLi1tdUnToYw",
+      "/ready-to-wear/43.png",
   },
   {
     n: "02",
@@ -51,7 +51,7 @@ const products = [
       "Immediate delivery in standard sizing",
     ],
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuDQTsa9Z1netxpyt-N4y5nZGLbcb2RXd4brnLUm184Ipc12QBs0XsdIUU6CQk4G2ntsZiDYONGbLGOPEgzgLe5lHkJi9RA6zgdYcwPq7HqVH97YG2C1vnkYSG2PXBZ84RkFoYyTFZMovovAc1rC4mz9miv1H0aWADMK63NFJEquFVtmAI3IJQqNiRJCsTf2u5NGPSZ07Vp2lNkAEtPZcG_DTKs2EoOJagzntaWYIrhniMoh9vBAQDT00Jv9wCqNWY6Sl9ZrjoBlrmo",
+      "/ready-to-wear/44.png",
   },
 ];
 
@@ -101,9 +101,12 @@ export default function Trousers() {
   return (
     <>
       <PageHero
+        variant="split"
         eyebrow="Trousers & Pants · Structure Designed for Movement and Balance"
         title="Proportion. Posture. Daily Presence."
         subtitle="Trousers shape proportion, posture, and daily presence. They define the foundation of every outfit from the ground up — governing how a jacket sits, how a shirt tucks, and how a man carries himself across every hour of the day."
+        image="/ready-to-wear/43.png"
+        imageAlt="Fine custom tailored trousers"
         primaryCTA={{ label: "Refine Your Fit", href: "#reserve" }}
       />
 

@@ -13,7 +13,7 @@ import {
 export const metadata = { title: "Safari Suede Jacket | Franco Masoma" };
 
 const HERO_IMG =
-  "https://lh3.googleusercontent.com/aida-public/AB6AXuBPLmgQHPHW2muRBvsE0Zf8uUe13bRebvdFq2rrprs_9EhTgxueLYrsOYiYxYc0MoC4V0fK_Tl0sIGeHGxqkIWwSGhuY40oYRmRRhMebvlcG-dyU-ZWCop9yL1KmaAnTgD_3_TfQoyk_wGM7uO70fHJiClvYX6wqvraKCc09M_Gitue57D71c1hebR28LQRw21pfb32KSAoxlg3DKf_BKWenjqmr_DbVXYvi34n5LY_pR6oWlDY-9RYDQZlHsUtq3Vy2RlsJWznq-5v";
+  "/ready-to-wear/47.png";
 
 const garment = {
   n: "01",
@@ -31,8 +31,7 @@ const garment = {
     "Professional care guidance included",
     "Available in standard sizes with tailoring support",
   ],
-  image:
-    "https://lh3.googleusercontent.com/aida-public/AB6AXuBiNd9teKutzGG4heCO5fp2eoEP2ktSk9uTrZx9g7ldjGGjGxlOzPw8DITWURocGs3E1hx7Sz7vqpEAGbeg9IjthNYG4hNSGo19jRgsZIoyke_aU3m-K-6NmvciqfEFXgObg08DVPMWPuWhVTEruWUqEOIHFCu5kvdBYq4VGjYLZxiidx0PGEh6IEI34llMjZB1x6tjP_UZqi6hVrI9CXdQC_Ju5M6tmoZaE9vSVpMeBkIwGkZ9416WUsssOnzOZJFt52CBkHDFriLP",
+  image: HERO_IMG,
 };
 
 const materialNotes = [

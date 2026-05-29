@@ -30,7 +30,7 @@ const products = [
       "Available for immediate delivery across standard sizing",
     ],
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuB7ZvnuBeydDNkdTCoJ_ggUN8QYOAYz73dnmZwUkNpytSlnnrmuU7c4RY8mH5iy7y_EL3eZ3KoGwHQuBcPxdy-V4Nz6wteXXfnPfMIR5PPimooEXeCVr3kqDLn6CRCdpu1CGydr3HCku4DInCWUxK4s1UduV-96DIT1kZpimdzQtIrfF9JMn66MO-Iq0e-81Ob_SVlp9YknXKh8Cr1HxcsLkV3wqwCI39TbMKYTP2e4ymNDjaNPJkTEcY1MBj2WwpnYCzYcJS3uIZ2H",
+      "/ready-to-wear/45.png",
   },
   {
     n: "02",
@@ -50,7 +50,7 @@ const products = [
       "6 to 8 week production timeline",
     ],
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuA9vogoi5X3Y7l5qym-_kfVZKNRte4_bVKivRAGkqtzyoMzJZXcSNXTqaCChu0oxrdwJy41PbZ9_Hw44o7fmfnwVwp3hBp-yjPlq4NUCb9Rw9DUKXzJSrbC_GOnO4RG8vBN0Hel9Kq-vKKB6vV4cB10uh-tN1OgcB_6CSSBBn4E3XAKCk6-KROpstikJrQg8bbxn6ol6CNBjQnRSEul1zX4VG4DoDqkuBUKU11D1npC7TFhb5uF6sMxcO6T4HAstY1MBHM867dYWN2o",
+      "/ready-to-wear/46.png",
   },
 ];
 
@@ -117,9 +117,12 @@ export default function Vests() {
   return (
     <>
       <PageHero
+        variant="split"
         eyebrow="Vests & Layering · Depth and Structure Within Tailored Composition"
         title="Proportion. Structure. Formal Refinement."
         subtitle="Layering pieces enhance proportion, structure, and formal refinement. The vest — worn correctly, in the right context, with the right garments — transforms a suit into a three-piece composition and elevates any tailored outfit."
+        image="/ready-to-wear/45.png"
+        imageAlt="Fine tailored vests"
         primaryCTA={{ label: "Build Layered Precision", href: "#reserve" }}
       />
 

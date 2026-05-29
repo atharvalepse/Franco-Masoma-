@@ -13,7 +13,7 @@ import {
 export const metadata = { title: "Refined Knitwear | Franco Masoma" };
 
 const HERO_IMG =
-  "https://lh3.googleusercontent.com/aida-public/AB6AXuABboj8nAYXyubEs7PH8xOQdNwVrkTDy31_zjow96JdHGKdE5EH-NQOrIpd84BrIx5Svlk4DHy4vwhnLZXe1WtZMbYGDtwqZylBKFnxEvhMCEEnrlZuP_4ycJ9GbhtTBcymTY6TfvATWlI-Sm48wIRsrlj4Owj-3z1lws6J3HCz_I-61CPp6niG3pcTTJvooswgmsiMNkvJZqXITRxiApwYxBIupkYF7snF0QPOO8xga9163Pe4O0jrw4a-wQGWEWhRFbDkfWzmV_k_";
+  "/ready-to-wear/42.png";
 
 const garment = {
   n: "01",
@@ -89,9 +89,12 @@ export default function SweaterPage() {
   return (
     <>
       <PageHero
+        variant="split"
         eyebrow="Refined Knitwear · Minimal Structure, Refined Comfort"
         title="Ease, Expressed with Intention."
         subtitle="Casualwear supports ease while maintaining clarity and elegance. The finest casual knitwear pieces are not simply comfortable — they are considered."
+        image={HERO_IMG}
+        imageAlt="Refined custom cotton sweater"
         primaryCTA={{ label: "Elevate Everyday Wear", href: "#reserve" }}
       />
 

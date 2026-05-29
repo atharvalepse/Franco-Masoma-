@@ -128,7 +128,7 @@ export default function Accessories() {
         eyebrow="Accessories · The Details"
         title="The Final Word in Every Outfit."
         subtitle="Curated accessories that complete the Franco Masoma wardrobe. Each piece reflects precision, longevity, and timeless elegance — the final decisions that separate a dressed man from a truly considered one."
-        image="https://lh3.googleusercontent.com/aida-public/AB6AXuCFiu61ELQk-EWhubSQa_ilMJP8yPfXiKm0fN3wOoQP5FSj68LV3HCeyRQYOe6z2q0R0jZ06Sf3s8iSYSpdMiB4KVCbiMqqJMWKejetysuqRhFYAeTtVawBIYOfg4oMiYaFYmdAdqoIlfoecDF0LyNbI5fyqxerl42rcpopChepuBkRrEM_Npqy8fvix1WQay46ij5tv8Et54UwQoBVOtd1rzKBA0CnyW8nL_1cIUcyPzYTDesUSr4226xsCLczzdDJE_UZKh9csb8"
+        image="/ready-to-wear/24.png"
         imageAlt="Luxury accessories laid on a marble surface"
         primaryCTA={{ label: "Explore Collection", href: "#categories" }}
         secondaryCTA={{ label: "Schedule Consultation", href: "#reserve" }}

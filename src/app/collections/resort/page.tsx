@@ -13,7 +13,7 @@ import {
 export const metadata = { title: "Resort Collection | Franco Masoma" };
 
 const HERO_IMG =
-  "https://lh3.googleusercontent.com/aida-public/AB6AXuAQ-ljxyR3itS2_9kyDZJtQpc11wvqTiWel-VqAq47Gx4IuNi45ZlqqYc6L2Z61VQw77WimFSxYJsgOeL1OkSOEnhyiDSxtGJtUKG4HtrjXVh2ZzW4C-n_EbDTynffN9oYVJt1jmoNqxL-quLx9-dggwTdKl-Htb5hvEC1H9iVJnY1RQHdQTO0JoI46L2O0mVhzYAKXCc1G4nZIUrXl-n9NLgDslOyM-ztRsCs-jtzsDniEWxUW8w7Umb-eNQBHvW82uz-Ra6UC_HQ";
+  "/ready-to-wear/15.png";
 
 const garments = [
   {
@@ -136,6 +136,116 @@ export default function ResortCollection() {
             { stat: "∞", label: "Destinations Served" },
           ]}
         />
+      </Section>
+
+      {/* ─── Visual Lookbook Section ──────────────────────────────────── */}
+      <Section bg="surface-container">
+        <SectionHeader
+          centered
+          eyebrow="The Summer Lookbook"
+          title="A Study in Fluidity and Light."
+          description="Garments captured in their natural habitat — seaside breezes, tranquil coastlines, and unhurried afternoons where ease and elegance align perfectly."
+        />
+        
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-stretch mt-12">
+          {/* Left Column (Spans 7/12 on desktop) */}
+          <div className="md:col-span-7 flex flex-col justify-between gap-8">
+            <div 
+              className="group relative cinematic-zoom w-full flex-1"
+              style={{
+                aspectRatio: "3/4",
+                border: "1px solid var(--color-outline-variant)",
+                background: "var(--color-surface)",
+              }}
+            >
+              <span className="fm-stamp">I · Fluid Linen</span>
+              <img 
+                src="/cf6ce8a99485459405a203a147ff7982.jpg" 
+                alt="Linen Shirts & Relaxed Tailoring" 
+                className="w-full h-full object-cover transition-transform duration-[1200ms] group-hover:scale-[1.04]"
+              />
+              <div 
+                className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 flex flex-col justify-end p-8"
+              >
+                <span className="text-label-micro text-white/70 mb-2">The Foundation</span>
+                <h4 className="text-headline-md text-white mb-3">Linen Shirts & Relaxed Tailoring</h4>
+                <p className="text-body-md text-white/80">Breathable weaves that capture light and wind with absolute grace.</p>
+              </div>
+            </div>
+            
+            <div 
+              className="group relative cinematic-zoom w-full"
+              style={{
+                aspectRatio: "16/10",
+                border: "1px solid var(--color-outline-variant)",
+                background: "var(--color-surface)",
+              }}
+            >
+              <span className="fm-stamp">II · Refined Mobility</span>
+              <img 
+                src="/af431a30a6f4902781410b094a1a02f8.jpg" 
+                alt="Travel-Ready Trousers" 
+                className="w-full h-full object-cover transition-transform duration-[1200ms] group-hover:scale-[1.04]"
+              />
+              <div 
+                className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 flex flex-col justify-end p-8"
+              >
+                <span className="text-label-micro text-white/70 mb-2">The Anchor Piece</span>
+                <h4 className="text-headline-md text-white mb-3">Travel-Ready Trousers</h4>
+                <p className="text-body-md text-white/80">Designed for transit, maintaining structural perfection timezone to timezone.</p>
+              </div>
+            </div>
+          </div>
+          
+          {/* Right Column (Spans 5/12 on desktop) */}
+          <div className="md:col-span-5 flex flex-col justify-between gap-8">
+            <div 
+              className="group relative cinematic-zoom w-full flex-1"
+              style={{
+                aspectRatio: "4/5",
+                border: "1px solid var(--color-outline-variant)",
+                background: "var(--color-surface)",
+              }}
+            >
+              <span className="fm-stamp">III · Unstructured Layering</span>
+              <img 
+                src="/96a01347ca5b68252d885c65eb9ea9d1.jpg" 
+                alt="Lightweight Jackets & Layering" 
+                className="w-full h-full object-cover transition-transform duration-[1200ms] group-hover:scale-[1.04]"
+              />
+              <div 
+                className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 flex flex-col justify-end p-8"
+              >
+                <span className="text-label-micro text-white/70 mb-2">The Finishing Layer</span>
+                <h4 className="text-headline-md text-white mb-3">Lightweight Jackets</h4>
+                <p className="text-body-md text-white/80">Definition without weight, elevating daily warm-weather ensembles.</p>
+              </div>
+            </div>
+            
+            <div 
+              className="group relative cinematic-zoom w-full flex-1"
+              style={{
+                aspectRatio: "4/5",
+                border: "1px solid var(--color-outline-variant)",
+                background: "var(--color-surface)",
+              }}
+            >
+              <span className="fm-stamp">IV · The Destination Edit</span>
+              <img 
+                src="/cheerful-happy-brunette-man-dark-green-t-shirt-white-shorts-smiles-sincerely-outside_197531-24140.jpg.avif" 
+                alt="Destination Wardrobes" 
+                className="w-full h-full object-cover transition-transform duration-[1200ms] group-hover:scale-[1.04]"
+              />
+              <div 
+                className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 flex flex-col justify-end p-8"
+              >
+                <span className="text-label-micro text-white/70 mb-2">The Complete Edit</span>
+                <h4 className="text-headline-md text-white mb-3">Destination Wardrobes</h4>
+                <p className="text-body-md text-white/80">Curated with deliberate intention for coastal terraces and yacht decks.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </Section>
 
       <Section bg="surface-low">

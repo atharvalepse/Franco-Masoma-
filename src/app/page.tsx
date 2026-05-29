@@ -9,10 +9,10 @@ import {
 import ExperienceSlider from "@/components/ExperienceSlider";
 
 const HERO_IMG =
-  "https://lh3.googleusercontent.com/aida-public/AB6AXuBzOKDYchTmOxk2YtypW0ZSNI48YEKXM4_BUctJ6j3yZh8tRayAK8wzG_2k1xERaFiURSTJXt8tNFlSw8q6l8xUQjb3ZJqWgSEehtsroWY006W6XhaTcu6BVy0v4porIZY9AO4L3WHF4IO3RnVEl6wqR9scaLZ6zkCwwEd8wPm-eBlggVX1DYr35exQJILgrrAyT9vp0_BNUHm9vmuzEtIVxG-vHtk2H29fcdi-lCPoOTnYtfBCs40VmcEq2KYqg62Y-GzhVbdOtqU";
+  "/ready-to-wear/11.png";
 
 const CRAFT_IMG =
-  "https://lh3.googleusercontent.com/aida-public/AB6AXuCin5FbVvVQkfPQUqODZQMfIg1jln0uEKfv3OvPxU3lPep8yRhvy3eKXT0khzc0Vb1IQqw2hzf1ncipgJLs91bIRKzgMhXzs25BsZMrzXtbo2DrUYlDuSq8X5-UKahembLB4Im_M_i5xFuLURhrZMNUM2YfMUTpgBjIdNHyVwjfC5P6b-Zp_jEZfaEbvlADufGZ6q2NejDx9E5I-lAqIrIkio23kBBDN64BxgU4BQRinVON5t_m0B-PeNZGeWglmHs-YSxjviZWCYU";
+  "/ready-to-wear/12.png";
 
 const services = [
   {

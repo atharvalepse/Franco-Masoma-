@@ -11,10 +11,10 @@ import {
 export const metadata = { title: "The House | Franco Masoma" };
 
 const HERO_IMG =
-  "https://lh3.googleusercontent.com/aida-public/AB6AXuC9Jv51QhqPh7Fufnrw9xni48NVo1pfFx_anxLXxEsAPzSbeKwUQWvQCZsqFg1zqAjqeuTeOmrZ9H8meoSAKHiWubf8gkadkK82kxoNB9q5vdV2N9FMXMczPOAwk_ewnK0d_Gf_0p9PXOVo_Uf_WWpS2pJEN8dcJNegHaas55jJHkiQXp798n6LHL5O053IynWJf4NTU_CrPLL_0O4nRBRBP1hiqRoflJaI708C9FVHoP9YNGfjAizhKQHVVWxbqnRDah_EakBDhJI";
+  "/ready-to-wear/11.png";
 
 const FRANCO_IMG =
-  "https://lh3.googleusercontent.com/aida-public/AB6AXuC1mlc4Y2uwGJt2IJ1bazfMwARDBZfdXvSf1Tg81yxPlSe4Y0lNGHjPNwVaUOcAqL9HaVyN1uuBe4ShVNerV2CwcUuTPFd_QzjacmK53uyMr955EQPkh8hSLpkpZJ22dWV67mQWcT39f4Oua8Ytc_h-VoZK9Amg47U4nlLdYzNhjSi6OVMsdSM0Kn19odOmWSYifG06T30ZGdVD0hbWa55ZyxJ68cIQxVtMxz3me50mjWaUOo93CpVpfC9w1O0LKYtbTGSXnTIdiOA";
+  "/ready-to-wear/12.png";
 
 const journey = [
   { n: "I", title: "The Beginning", body: "A childhood shaped by challenge and transition created a foundation of resilience and clarity — instilling the values of discipline, resourcefulness, and aspiration that would later define the House." },

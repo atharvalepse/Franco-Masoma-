@@ -27,7 +27,7 @@ const products = [
       "Available for immediate delivery",
     ],
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuBitft1JqIqg0lbBUTBKj5u7UAV-36mdrah2NpFyz4kCiWi7LQElNqSr6wNhrKR42ZDaqQoyTmA37VHRYZUfq25FgwwzRegO3e4Cvlxa23OlyDKykrCFie9_yH8DrRLBTkJLFpWPUJowwpcLRc22NVJsPZZeM1ei6vie6nUjFh0kLextJvoDmXf0OcAqu_vCvwGx-12FebPlr0CQosf4aT-QujmVXng9gRJel3Jq_i1zhb6bxmITutMi_MjXg9WvZ-erZ54pIuYu_87",
+      "/ready-to-wear/30.png",
   },
   {
     n: "02",
@@ -43,7 +43,7 @@ const products = [
       "6 to 8 week production timeline",
     ],
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuB4nBCeWdUnzO-jP0UvMyR6U4neplXLPA-HSIp01RTfQ-aoTpfCwfw0QJ80TD4ZPvKYgc1uROh4iUBYlxNlLPStrwsyrcKslbbV6T7aNNQ6QpdakLA0jTo4WVHlUIwIHN-a80JxoN2Tlvx2jjxPqkJeEs04NwW1yrneAkbEufNVBX4ZO21v2F1VdGYbLyOeSWsWbz6y8fLqeNaotY_saYnsDwbv695lY0QaVGyvYRvCXA-z2MyFEWEWmU8xKkcJnY-K6p25mi3WG1bX",
+      "/ready-to-wear/31.png",
   },
   {
     n: "03",
@@ -59,7 +59,7 @@ const products = [
       "Immediate availability",
     ],
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuABboj8nAYXyubEs7PH8xOQdNwVrkTDy31_zjow96JdHGKdE5EH-NQOrIpd84BrIx5Svlk4DHy4vwhnLZXe1WtZMbYGDtwqZylBKFnxEvhMCEEnrlZuP_4ycJ9GbhtTBcymTY6TfvATWlI-Sm48wIRsrlj4Owj-3z1lws6J3HCz_I-61CPp6niG3pcTTJvooswgmsiMNkvJZqXITRxiApwYxBIupkYF7snF0QPOO8xga9163Pe4O0jrw4a-wQGWEWhRFbDkfWzmV_k_",
+      "/ready-to-wear/32.png",
   },
   {
     n: "04",
@@ -75,7 +75,7 @@ const products = [
       "Available in RTW and CTM formats",
     ],
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuA_T9u80roIx5ssg6to7Si6yHa7J1PHEQS7qwSAHB83hRyjN9KTOQmAscOdDUcu55I3ZMMZx2EprSqW7ikQveId_guXEeS98k-_hV-JXRrGxtDvcfZxrfrVXAs_q4-hdcxsNljQGYpLI6dOQfLvtyq-cCZ_rAO5w8HBvQLE73cTY0q7MykGPoZ8RX6Ig4E-sK76lIO5VBgK0V6dr8jFMoNl4pLGkqphSZ2TuqTk6D_NHC5EGNxy0cv5ziu4f420syHw6p9HSzHQ4cuh",
+      "/ready-to-wear/33.png",
   },
 ];
 
@@ -114,9 +114,12 @@ export default function Shirts() {
   return (
     <>
       <PageHero
+        variant="dark"
         eyebrow="Shirts Collection · Precision In Every Layer"
         title="The Foundation of Personal Style."
         subtitle="Shirts define the foundation of personal style. Each piece reflects clarity, structure, and refined versatility — designed to perform equally across formal environments, leisure, and every occasion in between."
+        image="/ready-to-wear/29.png"
+        imageAlt="A collection of fine tailored shirts"
         primaryCTA={{ label: "Define Your Shirt Profile", href: "#reserve" }}
       />
 

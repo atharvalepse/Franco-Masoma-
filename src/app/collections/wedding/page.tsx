@@ -13,7 +13,7 @@ import {
 export const metadata = { title: "Wedding Collection | Franco Masoma" };
 
 const HERO_IMG =
-  "https://lh3.googleusercontent.com/aida-public/AB6AXuDuZapWciUyWGUiCxqd3u5r3ku0PtoQobD49bH106F1ZGDlu0RXJVsE7kOQXSMVjvrpb8GiSRk1DY2taRxnL2mi7okEtn-M9nNcgDNNUrWAci5hJQSJhgJbTSSWRwdc9WCedDdFE2M8XNLBa435tu2ObRP0KoISmYvSAQ_DntYcJUpURiOtzpDioulHcgsuj7_Au_yd2l6_mQKhlWmyL-Vf0eaPS4EL6-f3FGsR3CF6ztwZcyv-BZu8Z1DJWn83youG3dNlaSEqDHk";
+  "/ready-to-wear/14.png";
 
 const garments = [
   {
@@ -31,7 +31,7 @@ const garments = [
       "10 to 14 week production timeline",
     ],
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuB7ZvnuBeydDNkdTCoJ_ggUN8QYOAYz73dnmZwUkNpytSlnnrmuU7c4RY8mH5iy7y_EL3eZ3KoGwHQuBcPxdy-V4Nz6wteXXfnPfMIR5PPimooEXeCVr3kqDLn6CRCdpu1CGydr3HCku4DInCWUxK4s1UduV-96DIT1kZpimdzQtIrfF9JMn66MO-Iq0e-81Ob_SVlp9YknXKh8Cr1HxcsLkV3wqwCI39TbMKYTP2e4ymNDjaNPJkTEcY1MBj2WwpnYCzYcJS3uIZ2H",
+      "/ready-to-wear/38.png",
   },
   {
     n: "02",
@@ -47,7 +47,7 @@ const garments = [
       "Group consultation and fitting sessions",
     ],
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuA9vogoi5X3Y7l5qym-_kfVZKNRte4_bVKivRAGkqtzyoMzJZXcSNXTqaCChu0oxrdwJy41PbZ9_Hw44o7fmfnwVwp3hBp-yjPlq4NUCb9Rw9DUKXzJSrbC_GOnO4RG8vBN0Hel9Kq-vKKB6vV4cB10uh-tN1OgcB_6CSSBBn4E3XAKCk6-KROpstikJrQg8bbxn6ol6CNBjQnRSEul1zX4VG4DoDqkuBUKU11D1npC7TFhb5uF6sMxcO6T4HAstY1MBHM867dYWN2o",
+      "/ready-to-wear/39.png",
   },
   {
     n: "03",
@@ -63,7 +63,7 @@ const garments = [
       "Day-of consultation included",
     ],
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuBsPhsd5Clcv9nhQ8ND5UnEJ_LoJz0eGlmtin6PHmFEd_rUnT2WiQ7vJmn_ex4e3JG4g04xiSPbDninbKUlm_7XEHUgMO6r7BM0e-G3s5UPb6RZHd2yCn7VL7p4AKBDGJgeimJgmA90KkJG-e1nyBPTJiX2xydX6acO92PPfIRqNgeqH0nTwdCCtMgHtH0afWZdtqLBhAbd9Cg3vvdzZ0PbbhHtMgNlmQ4VxuqFZzWQ_Gw4gm3OXYK9BplTl-Qy0kpjqzj0wC6PXlvF",
+      "/ready-to-wear/40.png",
   },
   {
     n: "04",
@@ -79,7 +79,7 @@ const garments = [
       "Naples atelier finishing",
     ],
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuAC-YPWxNdMKoiZLKCCqkN4Xu0eoQZuHus-G1xyBHBOgKQ_eTZxdDLQsBcZxmp6leRVvXFdstu1SVmpPvuHO8N9jk5LFWpBLxmbCwqIupKsJoluuZxUIE_oeNcdK4BUMY1o1fqy2jXr56bQrK35DYKs0EpJfPe8cOIEnZpSKT9znLk8b88FDVqhQYvEh0u61pkkJWtjrUDAi4oMyx_g36AmtR0H4ivXQY6ds4Akwo3-aJFetcE8HIjEo9N3FAiI51hlWIw6s_dsAVaU",
+      "/ready-to-wear/41.png",
   },
 ];
 
@@ -141,6 +141,116 @@ export default function WeddingCollection() {
             { stat: "∞", label: "Occasions It Lives In" },
           ]}
         />
+      </Section>
+
+      {/* ─── Visual Lookbook Section ──────────────────────────────────── */}
+      <Section bg="surface-container">
+        <SectionHeader
+          centered
+          eyebrow="The Ceremonial Lookbook"
+          title="Moments of Deliberation and Grace."
+          description="Garments crafted to carry the weight of life's most defining milestones, captured in absolute reverence and timeless refinement."
+        />
+        
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-stretch mt-12">
+          {/* Left Column (Spans 5/12 on desktop) */}
+          <div className="md:col-span-5 flex flex-col justify-between gap-8">
+            <div 
+              className="group relative cinematic-zoom w-full flex-1"
+              style={{
+                aspectRatio: "4/5",
+                border: "1px solid var(--color-outline-variant)",
+                background: "var(--color-surface)",
+              }}
+            >
+              <span className="fm-stamp">I · The Accent</span>
+              <img 
+                src="/groom-s-boutonniere-with-olive-branch-roses_23-2152010058.jpg.avif" 
+                alt="The Groom's Boutonniere" 
+                className="w-full h-full object-cover transition-transform duration-[1200ms] group-hover:scale-[1.04]"
+              />
+              <div 
+                className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 flex flex-col justify-end p-8"
+              >
+                <span className="text-label-micro text-white/70 mb-2">The Detail</span>
+                <h4 className="text-headline-md text-white mb-3">The Groom's Boutonniere</h4>
+                <p className="text-body-md text-white/80">An olive branch and soft white roses pinned to the lapel — the final ceremonial accent.</p>
+              </div>
+            </div>
+            
+            <div 
+              className="group relative cinematic-zoom w-full flex-1"
+              style={{
+                aspectRatio: "4/5",
+                border: "1px solid var(--color-outline-variant)",
+                background: "var(--color-surface)",
+              }}
+            >
+              <span className="fm-stamp">II · The Silhouette</span>
+              <img 
+                src="/6bca5299347eeef5080fca84da973a52.jpg" 
+                alt="Neapolitan Formal Shoulder" 
+                className="w-full h-full object-cover transition-transform duration-[1200ms] group-hover:scale-[1.04]"
+              />
+              <div 
+                className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 flex flex-col justify-end p-8"
+              >
+                <span className="text-label-micro text-white/70 mb-2">The Silhouette</span>
+                <h4 className="text-headline-md text-white mb-3">Neapolitan Shoulder</h4>
+                <p className="text-body-md text-white/80">Hand-sculpted construction that delivers clean structure while ensuring complete ease.</p>
+              </div>
+            </div>
+          </div>
+          
+          {/* Right Column (Spans 7/12 on desktop) */}
+          <div className="md:col-span-7 flex flex-col justify-between gap-8">
+            <div 
+              className="group relative cinematic-zoom w-full"
+              style={{
+                aspectRatio: "16/10",
+                border: "1px solid var(--color-outline-variant)",
+                background: "var(--color-surface)",
+              }}
+            >
+              <span className="fm-stamp">III · The Ritual</span>
+              <img 
+                src="/e6b0fcb2fb4fa90caf0d7ad3b95517f2.jpg" 
+                alt="A Moment of Preparation" 
+                className="w-full h-full object-cover transition-transform duration-[1200ms] group-hover:scale-[1.04]"
+              />
+              <div 
+                className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 flex flex-col justify-end p-8"
+              >
+                <span className="text-label-micro text-white/70 mb-2">The Ritual</span>
+                <h4 className="text-headline-md text-white mb-3">A Moment of Preparation</h4>
+                <p className="text-body-md text-white/80">Buttoning the custom Neapolitan suit jacket before entering the ceremony.</p>
+              </div>
+            </div>
+            
+            <div 
+              className="group relative cinematic-zoom w-full flex-1"
+              style={{
+                aspectRatio: "3/4",
+                border: "1px solid var(--color-outline-variant)",
+                background: "var(--color-surface)",
+              }}
+            >
+              <span className="fm-stamp">IV · The Union</span>
+              <img 
+                src="/9fb60d3194cb404c3bbb6347066c9ea4.jpg" 
+                alt="Timeless Reverence" 
+                className="w-full h-full object-cover transition-transform duration-[1200ms] group-hover:scale-[1.04]"
+              />
+              <div 
+                className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 flex flex-col justify-end p-8"
+              >
+                <span className="text-label-micro text-white/70 mb-2">The Union</span>
+                <h4 className="text-headline-md text-white mb-3">Timeless Reverence</h4>
+                <p className="text-body-md text-white/80">Tailoring that stands beautifully at the altar and endures in photographs for generations.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </Section>
 
       <Section bg="surface-low">

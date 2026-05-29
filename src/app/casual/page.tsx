@@ -30,7 +30,7 @@ const garment = {
     "Immediate delivery for in-stock colorways",
   ],
   image:
-    "https://lh3.googleusercontent.com/aida-public/AB6AXuABboj8nAYXyubEs7PH8xOQdNwVrkTDy31_zjow96JdHGKdE5EH-NQOrIpd84BrIx5Svlk4DHy4vwhnLZXe1WtZMbYGDtwqZylBKFnxEvhMCEEnrlZuP_4ycJ9GbhtTBcymTY6TfvATWlI-Sm48wIRsrlj4Owj-3z1lws6J3HCz_I-61CPp6niG3pcTTJvooswgmsiMNkvJZqXITRxiApwYxBIupkYF7snF0QPOO8xga9163Pe4O0jrw4a-wQGWEWhRFbDkfWzmV_k_",
+    "/ready-to-wear/8.png",
 };
 
 const contexts = [
@@ -87,9 +87,12 @@ export default function Casual() {
   return (
     <>
       <PageHero
+        variant="split"
         eyebrow="Casual & Knitwear · Minimal Structure, Refined Comfort"
         title="Ease, Expressed with Intention."
         subtitle="Casualwear supports ease while maintaining clarity and elegance. The finest casual pieces are not simply comfortable — they are considered."
+        image="/ready-to-wear/8.png"
+        imageAlt="Refined custom casual knitwear"
         primaryCTA={{ label: "Elevate Everyday Wear", href: "#reserve" }}
       />
 

@@ -13,7 +13,7 @@ import {
 export const metadata = { title: "The Suits | Franco Masoma" };
 
 const HERO_IMG =
-  "https://lh3.googleusercontent.com/aida-public/AB6AXuAWEfEMxOFbxR5LccYoXUUlYcoOeJUVXhhPaTjd9qbDgEHZGEjeoXUZp27fghs06jn_toybHFg0WW1YGJvDVKbtpyb67ZV6GFZFEWKfMwShKG0TfuXKN6haY6aM9gC9jIu4w3lZQlVIZTCkoU0DMlh5XLQlnnJgm9RfbkGB1_wv24B1gUlKI_k05XC0JNzEEf5nH1CWRTb95SlP1z55GC-VD0NBKVqrAHfVlOFb8L-RPb3nMmg4FcdgupgGKZ-835wUWhN_1J3oIF5D";
+  "/ready-to-wear/37.png";
 
 const tiers = [
   {
@@ -31,7 +31,7 @@ const tiers = [
       "Available across a full size range",
     ],
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuB7ZvnuBeydDNkdTCoJ_ggUN8QYOAYz73dnmZwUkNpytSlnnrmuU7c4RY8mH5iy7y_EL3eZ3KoGwHQuBcPxdy-V4Nz6wteXXfnPfMIR5PPimooEXeCVr3kqDLn6CRCdpu1CGydr3HCku4DInCWUxK4s1UduV-96DIT1kZpimdzQtIrfF9JMn66MO-Iq0e-81Ob_SVlp9YknXKh8Cr1HxcsLkV3wqwCI39TbMKYTP2e4ymNDjaNPJkTEcY1MBj2WwpnYCzYcJS3uIZ2H",
+      "/ready-to-wear/38.png",
   },
   {
     n: "02",
@@ -48,7 +48,7 @@ const tiers = [
       "One fitting session with refinement included",
     ],
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuA9vogoi5X3Y7l5qym-_kfVZKNRte4_bVKivRAGkqtzyoMzJZXcSNXTqaCChu0oxrdwJy41PbZ9_Hw44o7fmfnwVwp3hBp-yjPlq4NUCb9Rw9DUKXzJSrbC_GOnO4RG8vBN0Hel9Kq-vKKB6vV4cB10uh-tN1OgcB_6CSSBBn4E3XAKCk6-KROpstikJrQg8bbxn6ol6CNBjQnRSEul1zX4VG4DoDqkuBUKU11D1npC7TFhb5uF6sMxcO6T4HAstY1MBHM867dYWN2o",
+      "/ready-to-wear/39.png",
   },
   {
     n: "03",
@@ -66,7 +66,7 @@ const tiers = [
       "8 to 10 week production timeline",
     ],
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuBsPhsd5Clcv9nhQ8ND5UnEJ_LoJz0eGlmtin6PHmFEd_rUnT2WiQ7vJmn_ex4e3JG4g04xiSPbDninbKUlm_7XEHUgMO6r7BM0e-G3s5UPb6RZHd2yCn7VL7p4AKBDGJgeimJgmA90KkJG-e1nyBPTJiX2xydX6acO92PPfIRqNgeqH0nTwdCCtMgHtH0afWZdtqLBhAbd9Cg3vvdzZ0PbbhHtMgNlmQ4VxuqFZzWQ_Gw4gm3OXYK9BplTl-Qy0kpjqzj0wC6PXlvF",
+      "/ready-to-wear/40.png",
   },
   {
     n: "04",
@@ -85,7 +85,7 @@ const tiers = [
       "10 to 14 week production timeline",
     ],
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuAC-YPWxNdMKoiZLKCCqkN4Xu0eoQZuHus-G1xyBHBOgKQ_eTZxdDLQsBcZxmp6leRVvXFdstu1SVmpPvuHO8N9jk5LFWpBLxmbCwqIupKsJoluuZxUIE_oeNcdK4BUMY1o1fqy2jXr56bQrK35DYKs0EpJfPe8cOIEnZpSKT9znLk8b88FDVqhQYvEh0u61pkkJWtjrUDAi4oMyx_g36AmtR0H4ivXQY6ds4Akwo3-aJFetcE8HIjEo9N3FAiI51hlWIw6s_dsAVaU",
+      "/ready-to-wear/41.png",
   },
 ];
 

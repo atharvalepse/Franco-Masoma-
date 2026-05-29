@@ -30,7 +30,7 @@ const products = [
       "6 to 8 week production timeline",
     ],
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuDhU_rbogQX4NQcmIPPNJgcr0QQ-TO1WpcRf2txlJ4wzSfMo3ZBfUB4NyDSouMP6EFZ3EFg7rk_XGi_ZnyOKoM40M6YPoq4385E1NqzDOz6Gclo_lKK6TX62AUzWMaKqXCCEHesRSUcXflpXm4LS7dialNWb73qsWvUC_wWpj9a-9OVKPaAnaQwhmZ9hlDj-DoAdlale4161B_k3OhnUjsQ1jo1sDdgl3kLccjpRCv6wgmmSFA3jw5uta_JbdNFbDvkUT2JgEFk0ywX",
+      "/ready-to-wear/35.png",
   },
   {
     n: "02",
@@ -49,7 +49,7 @@ const products = [
       "Available in standard sizes with tailoring support",
     ],
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuCGaEKG7IA2W8VWushEWtLq2wXGOpoR17qarnHq6hAifYQqk3UdDQQPyfJyQJtTdlwvwcrIBdXReieaYZ4tvIX9QIzoL1CaEu6gCDb47TQ7opuGjE16U3pwGSZRnXKXH8JDvn4Lkmx0mKCIMiXgEKZQkBzw5AXTVKej5LsqHvF_NsJOxyUNTyNZY6akst5upxVVyo7KUHB6bqyQXvacVofp-h8mlHmPXgsLjzxOsxE20Kc9K7ctwR1IJvv7CibC5_czIt7KNeOAQ-a3",
+      "/ready-to-wear/36.png",
   },
 ];
 
@@ -98,9 +98,12 @@ export default function SportCoats() {
   return (
     <>
       <PageHero
+        variant="split"
         eyebrow="Sportcoats & Jackets · Versatility Shaped Through Craftsmanship"
         title="Adaptability Without Compromise."
         subtitle="Tailored jackets define adaptability across professional and lifestyle environments. The right jacket moves between boardroom and dinner, between formal structure and relaxed presence — without losing authority at any point in the journey."
+        image="/ready-to-wear/35.png"
+        imageAlt="Fine custom tailored sportcoats"
         primaryCTA={{ label: "Build Your Jacket Profile", href: "#reserve" }}
       />
 

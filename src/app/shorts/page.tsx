@@ -13,7 +13,7 @@ import {
 export const metadata = { title: "Tailored Shorts | Franco Masoma" };
 
 const HERO_IMG =
-  "https://lh3.googleusercontent.com/aida-public/AB6AXuAQ-ljxyR3itS2_9kyDZJtQpc11wvqTiWel-VqAq47Gx4IuNi45ZlqqYc6L2Z61VQw77WimFSxYJsgOeL1OkSOEnhyiDSxtGJtUKG4HtrjXVh2ZzW4C-n_EbDTynffN9oYVJt1jmoNqxL-quLx9-dggwTdKl-Htb5hvEC1H9iVJnY1RQHdQTO0JoI46L2O0mVhzYAKXCc1G4nZIUrXl-n9NLgDslOyM-ztRsCs-jtzsDniEWxUW8w7Umb-eNQBHvW82uz-Ra6UC_HQ";
+  "/ready-to-wear/34.png";
 
 const product = {
   n: "01",
@@ -88,9 +88,12 @@ export default function TailoredShorts() {
   return (
     <>
       <PageHero
+        variant="split"
         eyebrow="Tailored Shorts · Elevated Warm-Weather Elegance"
         title="Form, Refined for Ease."
         subtitle="Uncompromising tailoring principles applied to high-climate leisure. Crafted from pure Italian linen to keep you crisp, cool, and undeniably polished."
+        image={HERO_IMG}
+        imageAlt="Tailored linen shorts"
         primaryCTA={{ label: "Curate Resort Wardrobe", href: "#reserve" }}
       />
 

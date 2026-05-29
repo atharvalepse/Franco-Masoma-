@@ -13,7 +13,7 @@ import {
 export const metadata = { title: "Airport Pants | Franco Masoma" };
 
 const HERO_IMG =
-  "https://lh3.googleusercontent.com/aida-public/AB6AXuDQTsa9Z1netxpyt-N4y5nZGLbcb2RXd4brnLUm184Ipc12QBs0XsdIUU6CQk4G2ntsZiDYONGbLGOPEgzgLe5lHkJi9RA6zgdYcwPq7HqVH97YG2C1vnkYSG2PXBZ84RkFoYyTFZMovovAc1rC4mz9miv1H0aWADMK63NFJEquFVtmAI3IJQqNiRJCsTf2u5NGPSZ07Vp2lNkAEtPZcG_DTKs2EoOJagzntaWYIrhniMoh9vBAQDT00Jv9wCqNWY6Sl9ZrjoBlrmo";
+  "/ready-to-wear/25.png";
 
 const product = {
   n: "01",
@@ -31,8 +31,7 @@ const product = {
     "Available in travel-appropriate tonal colorways",
     "Immediate delivery in standard sizing with tailoring support",
   ],
-  image:
-    "https://lh3.googleusercontent.com/aida-public/AB6AXuDQTsa9Z1netxpyt-N4y5nZGLbcb2RXd4brnLUm184Ipc12QBs0XsdIUU6CQk4G2ntsZiDYONGbLGOPEgzgLe5lHkJi9RA6zgdYcwPq7HqVH97YG2C1vnkYSG2PXBZ84RkFoYyTFZMovovAc1rC4mz9miv1H0aWADMK63NFJEquFVtmAI3IJQqNiRJCsTf2u5NGPSZ07Vp2lNkAEtPZcG_DTKs2EoOJagzntaWYIrhniMoh9vBAQDT00Jv9wCqNWY6Sl9ZrjoBlrmo",
+  image: HERO_IMG,
 };
 
 const travelPrinciples = [

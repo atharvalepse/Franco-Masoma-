@@ -14,7 +14,7 @@ import {
 export const metadata = { title: "Outerwear | Franco Masoma" };
 
 const HERO_IMG =
-  "https://lh3.googleusercontent.com/aida-public/AB6AXuAXw6NS88D3kD6krw1jtMju7m6sLZIkgws3zloLXMsq5pax1PA7QGtixXhJtzWcCzZtQ5v0ZHjmpORpvyyN-JnZM0YpYzC2I4i6eDx0ZW06R9ZJiDwjP_TjWNKDztpriGm_GoppFv4X6Y08nWehMAxXVZZWn49AEwlNJZ5YI6ivTb5WNtoYyREw2vVl2Kezz0780h4YgEjF71GHRiEh7TVYjjbMgil07jDmZbxqJpV3Aft-J1MEOvHnOKWWzOm1ufLpBIyTWMe4fD-x";
+  "/ready-to-wear/26.png";
 
 const overcoat = {
   n: "01",
@@ -37,7 +37,7 @@ const overcoat = {
     "Lifetime care guidance and repair service",
   ],
   image:
-    "https://lh3.googleusercontent.com/aida-public/AB6AXuBIB9TON4x3wdEnWvUPxPthNt9m2LWv3aOKi8BVOxTii7Ov1seam6h0VFAhqL7Ahb2gftR1Qz8UmSjyyBKKzYUyr_gV9Qw5WiHVdSk9-YLl1DHGGu0Pg9T0lhvX2JQqaM-ila33P5YfbdFimzxw3La2bKIIhGke4-EaZooVtUg9wfsknMsCugod3Cg5Qx7xx1mYhMOHKju8xJDjpxutc3kRnesjifedv06O7fT6tVjFgDWb8L1IiFfY8sf9H6IwSBykvXKbOLvJ7ZPr",
+    "/ready-to-wear/27.png",
 };
 
 const materialPrinciples = [

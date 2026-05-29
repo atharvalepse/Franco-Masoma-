@@ -13,7 +13,7 @@ import {
 export const metadata = { title: "Pocket Squares | Franco Masoma" };
 
 const HERO_IMG =
-  "https://lh3.googleusercontent.com/aida-public/AB6AXuDOSf_ICi9PaNAzllCmUCgC9fkQ5EY60ofaIOATgPeSpoPCqqUUWPoAqEZfEYsbk1-e02YAfoCLhXO2vmvkPLgBXaoHezHNH7C__A9KdnLUwyk9ZTY0SDuBKdsc6tuybBJ15_0KUnz2TInQjcMVPRKZrTOKJHNFTboBvD2JNcxWNgJ4vz4RvclDsz_vD5w9CZzxThIPs7s43Ms6D_RaQxSCbF4RmJ7OGfJbkJnIYHMqfDfvNRUwRrYxrsuKoi8cqw_cj_1JPaiCD0I";
+  "/ready-to-wear/28.png";
 
 const product = {
   n: "01",
