@@ -6,7 +6,7 @@ const lineups = [
     eyebrow: "For Leadership",
     body: "Precision tailoring for those who shape direction, define presence, and command every room they enter. Three garment categories — Executive Suits, Power Shirts, Formal Outerwear.",
     image:
-      "/ready-to-wear/13.png",
+      "/cropped-portrait-successful-businessman-buttoning-his-elegant-suit-isolated-dark-background_613910-5505.jpg.avif",
     href: "/collections/executive",
   },
   {
@@ -14,7 +14,7 @@ const lineups = [
     eyebrow: "For Life's Defining Moments",
     body: "Timeless tailoring for a ceremony worth remembering. Bespoke wedding suits, groom & groomsmen coordination, ceremony & reception styling.",
     image:
-      "/ready-to-wear/14.png",
+      "/groom-s-boutonniere-with-olive-branch-roses_23-2152010058.jpg.avif",
     href: "/collections/wedding",
   },
   {
@@ -22,7 +22,7 @@ const lineups = [
     eyebrow: "For Refined Ease and Travel",
     body: "Elegance that moves with you. Linen shirts, travel-ready trousers, lightweight jackets, and destination wardrobes built for movement and warm climates.",
     image:
-      "/ready-to-wear/15.png",
+      "/af431a30a6f4902781410b094a1a02f8.jpg",
     href: "/collections/resort",
   },
 ];

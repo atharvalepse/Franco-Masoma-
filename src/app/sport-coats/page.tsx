@@ -30,7 +30,7 @@ const products = [
       "6 to 8 week production timeline",
     ],
     image:
-      "/ready-to-wear/35.png",
+      "/sport-jacket-clothing_1203-2533.jpg.avif",
   },
   {
     n: "02",
@@ -49,7 +49,7 @@ const products = [
       "Available in standard sizes with tailoring support",
     ],
     image:
-      "/ready-to-wear/36.png",
+      "/images-6.jpeg",
   },
 ];
 
@@ -102,7 +102,7 @@ export default function SportCoats() {
         eyebrow="Sportcoats & Jackets · Versatility Shaped Through Craftsmanship"
         title="Adaptability Without Compromise."
         subtitle="Tailored jackets define adaptability across professional and lifestyle environments. The right jacket moves between boardroom and dinner, between formal structure and relaxed presence — without losing authority at any point in the journey."
-        image="/ready-to-wear/35.png"
+        image="/freepik_assistant_1761598016224.png.webp"
         imageAlt="Fine custom tailored sportcoats"
         primaryCTA={{ label: "Build Your Jacket Profile", href: "#reserve" }}
       />

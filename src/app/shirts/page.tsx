@@ -27,7 +27,7 @@ const products = [
       "Available for immediate delivery",
     ],
     image:
-      "/ready-to-wear/30.png",
+      "/images-4.jpeg",
   },
   {
     n: "02",
@@ -43,7 +43,7 @@ const products = [
       "6 to 8 week production timeline",
     ],
     image:
-      "/ready-to-wear/31.png",
+      "/images-5.jpeg",
   },
   {
     n: "03",
@@ -59,7 +59,7 @@ const products = [
       "Immediate availability",
     ],
     image:
-      "/ready-to-wear/32.png",
+      "/51AyIWYJGbL._AC_UY1100_.jpg",
   },
   {
     n: "04",
@@ -75,7 +75,7 @@ const products = [
       "Available in RTW and CTM formats",
     ],
     image:
-      "/ready-to-wear/33.png",
+      "/stylish-young-handsome-man-classy-outfit_1303-22499.jpg.avif",
   },
 ];
 
@@ -118,7 +118,7 @@ export default function Shirts() {
         eyebrow="Shirts Collection · Precision In Every Layer"
         title="The Foundation of Personal Style."
         subtitle="Shirts define the foundation of personal style. Each piece reflects clarity, structure, and refined versatility — designed to perform equally across formal environments, leisure, and every occasion in between."
-        image="/ready-to-wear/29.png"
+        image="/handsome-stylish-man-white-elegant-shirt-blue-pants-city_338491-2775.jpg.avif"
         imageAlt="A collection of fine tailored shirts"
         primaryCTA={{ label: "Define Your Shirt Profile", href: "#reserve" }}
       />

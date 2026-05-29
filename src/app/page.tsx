@@ -241,6 +241,93 @@ export default function Home() {
         </div>
       </Section>
 
+      {/* ─── The Atelier Gallery ────────────────────────────────────────── */}
+      <Section bg="surface">
+        <SectionHeader
+          centered
+          eyebrow="The Atelier Gallery"
+          title="Moments of Tailored Perfection."
+          description="A visual curation of custom bespoke garments, cut and crafted for life's most distinguished chapters."
+        />
+        
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-stretch mt-12">
+          {/* Left Large Column (Spans 7/12 on desktop) */}
+          <div className="md:col-span-7">
+            <div 
+              className="group relative cinematic-zoom w-full h-full"
+              style={{
+                aspectRatio: "16/10",
+                border: "1px solid var(--color-outline-variant)",
+                background: "var(--color-surface)",
+              }}
+            >
+              <span className="fm-stamp">I · The Modern Cut</span>
+              <img 
+                src="/images.jpeg" 
+                alt="Contemporary Bespoke Tailoring" 
+                className="w-full h-full object-cover transition-transform duration-[1200ms] group-hover:scale-[1.04]"
+              />
+              <div 
+                className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 flex flex-col justify-end p-8"
+              >
+                <span className="text-label-micro text-white/70 mb-2">The Collection</span>
+                <h4 className="text-headline-md text-white mb-3">Contemporary Silhouette</h4>
+                <p className="text-body-md text-white/80">Refined proportions designed to complement modern posture and confidence.</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Right Two-Column Grid (Spans 5/12 on desktop) */}
+          <div className="md:col-span-5 flex flex-col gap-8 justify-between">
+            <div 
+              className="group relative cinematic-zoom w-full flex-1"
+              style={{
+                aspectRatio: "4/3",
+                border: "1px solid var(--color-outline-variant)",
+                background: "var(--color-surface)",
+              }}
+            >
+              <span className="fm-stamp">II · The Fabric Choice</span>
+              <img 
+                src="/images-2.jpeg" 
+                alt="Premium Sartorial Fabric" 
+                className="w-full h-full object-cover transition-transform duration-[1200ms] group-hover:scale-[1.04]"
+              />
+              <div 
+                className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 flex flex-col justify-end p-8"
+              >
+                <span className="text-label-micro text-white/70 mb-2">The Cloth</span>
+                <h4 className="text-headline-md text-white mb-3">Sartorial Detail</h4>
+                <p className="text-body-md text-white/80">Hand-selected natural wools and linens sourced from historic northern Italian mills.</p>
+              </div>
+            </div>
+
+            <div 
+              className="group relative cinematic-zoom w-full flex-1"
+              style={{
+                aspectRatio: "4/3",
+                border: "1px solid var(--color-outline-variant)",
+                background: "var(--color-surface)",
+              }}
+            >
+              <span className="fm-stamp">III · The Finish</span>
+              <img 
+                src="/images-3.jpeg" 
+                alt="Finished Bespoke Detail" 
+                className="w-full h-full object-cover transition-transform duration-[1200ms] group-hover:scale-[1.04]"
+              />
+              <div 
+                className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 flex flex-col justify-end p-8"
+              >
+                <span className="text-label-micro text-white/70 mb-2">The Execution</span>
+                <h4 className="text-headline-md text-white mb-3">Artisan Finishing</h4>
+                <p className="text-body-md text-white/80">Deliberate hand-stitched buttonholes and canvassing crafted in the Neapolitan tradition.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Section>
+
       {/* ─── The Experience ──────────────────────────────────────────────── */}
       <Section bg="surface" id="experience">
         <SectionHeader
